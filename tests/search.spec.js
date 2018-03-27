@@ -15,7 +15,7 @@ import {
   searchPlaylists,
   searchTracks,
   searchArtists
-} from '../src/main';
+} from '../src/search';
 
 describe('Spotify Wrapper', () => {
   describe('Smoke Tests', () => {
