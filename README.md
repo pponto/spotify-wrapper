@@ -1,5 +1,6 @@
 # Spotify Wrapper
-[![Build Status](https://travis-ci.org/pponto/spotify-wrapper.svg?branch=master)](https://travis-ci.org/pponto/spotify-wrapper) [![Coverage Status](https://coveralls.io/repos/github/willianjusten/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/willianjusten/spotify-wrapper?branch=master)
+[![Build Status](https://travis-ci.org/pponto/spotify-wrapper.svg?branch=master)](https://travis-ci.org/pponto/spotify-wrapper)
+[![Coverage Status](https://coveralls.io/repos/github/pponto/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/pponto/spotify-wrapper?branch=master)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
