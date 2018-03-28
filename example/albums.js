@@ -1,6 +1,6 @@
 global.fetch = require('node-fetch');
 
-import { searchAlbums } from '../src/main';
+import { searchAlbums } from '../src/search';
 
 const albums = searchAlbums('Muse');
 
