@@ -10,7 +10,11 @@
   <div id="albums"></div>
   <script src="../dist/spotify-wrapper.umd.js"></script>
   <script>
-    const albums = spotifyWrapper.searchAlbums('Muse');
+    import SpotifyWrapper from '../src/index';
+    const spotify = new SpotifyWrapper({
+      token: 'BQCrY_QfkGPUn1awlIdFJNtGIuJxlnOkfP_nJUBl5C9VSw_t9SWheIb9ov08oJ8cvn4mjck187OW0uDbzqkw2OcWwCj3xx_s45ostQ3CrmLktAmzZZwCCIltArQp0zc18tSKog'
+    });
+    const albums = spotify.search.albums('Muse');
     const albumsEl = document.getElementById('albums');
     albums
       .then(data => {
